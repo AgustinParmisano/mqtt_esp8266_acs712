@@ -8,7 +8,7 @@
  
 // Connect to the WiFi
 const char* ssid = "depto14";                           //!!!!!!!!!!!!!!!!!!!!!
-const char* password = "qawsed021188!";                //!!!!!!!!!!!!!!!!!!!!!
+const char* password = "*************!";                //!!!!!!!!!!!!!!!!!!!!!
 const char* mqtt_server = "192.168.0.24";                 //!!!!!!!!!!!!!!!!!!!!!
 
 ESP8266WebServer server(80);
