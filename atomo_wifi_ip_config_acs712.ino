@@ -226,7 +226,7 @@ void mqtt_start(){
    Serial.println("Starting MQTT On Device Client");
    Serial.print("MQTT BROKER IP (STRING): ");
    Serial.println(mqtt_server);
-   char* mqtt_server_char; 
+   char mqtt_server_char[50];
    mqtt_server.toCharArray(mqtt_server_char, 50);
    Serial.print("MQTT BROKER IP (CHAR): ");
    Serial.println(mqtt_server_char);
