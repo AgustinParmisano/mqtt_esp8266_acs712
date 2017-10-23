@@ -12,8 +12,8 @@ while True:
 	c+=1
 	m+=1	
 	print("Publishing message %s to device %s" % (m,c))
-	client.publish("device/" + str(c) + "/receive","message number: " + str(m))#publish
+	client.publish("device/" + str(c) + "/receive","This is device: " + str(c) + " with message number: " + str(m))#publish
 	if c >= 5:
 		print("Topic is device/device_number(1-5)/receive")
 		c=0
-	time.sleep(5)
+	time.sleep(2)
