@@ -1,0 +1,5 @@
+mosquitto_sub -t device/1/receive
+mosquitto_sub -t device/2/receive
+mosquitto_sub -t device/3/receive
+mosquitto_sub -t device/4/receive
+mosquitto_sub -t device/5/receive
